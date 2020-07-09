@@ -59,7 +59,8 @@
       Miniurl.id
       </a>
     </h4>
-    <!--
+    <form action="https://miniurl.id/create.php" method="GET" target="_blank">
+      <!--
           DO NOT CHANGE ANYTHING IN THIS EXTENSION CODE
           So that your url can be shortened correctly
           By using this extension, you are agreeing to the terms
@@ -68,7 +69,16 @@
           https://MiniURL.id
           Copyright (c) 2020 MiniURL Developer
       -->
-    <a href="about:blank" target="_blank" id="createMiniurlid">Create Miniurl!</a>
+      <a href="https://miniurl.id/?ref=chromeextcreate" class="extensiontitle" target="_blank" rel="nofollow">Create Shortened Link of your Current Tab</a><br><br>
+      <input type="text" name="url" id="createMiniurlid" hidden value="">
+      <input type="submit" class="btn btn-outline-primary" name="shorten" value="Shorten" /> 
+      <br><br>
+      <label for="alias">Custom URL's back-half <i>(optional)</i></label><br>
+      <label for="alias">miniurl.id/</label>
+      <input type="text" id="alias" name="alias" value="" placeholder="Ignore for random URL's back-half"  size="25" maxlength="32" pattern="^[a-zA-Z0-9_]+$" title="Can Only contains letters, numbers, and underscores. Max 32 characters" autocomplete="off">
+      <br><label for="alias">May contains letters, numbers, and underscores. Max 32 Characters</label>
+      <input type="hidden" name="page" value="chromeextcreate" />
+    </form>
     <hr>
     <a href="https://www.youtube.com/channel/UC9CvgE7P0qAxC8wtSPxwnTg/" target="_blank">
       <i class="fa fa-youtube"></i>
