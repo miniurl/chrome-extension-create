@@ -1,9 +1,9 @@
 {
   
     "manifest_version":2,
-    "name":"Miniurl.id Create Link",
+    "name":"Create Miniurl.id from Current Tab",
     "version":"2.0.1",
-    "description":"Create a shortened link in a few clicks.",
+    "description":"Create a customized shortened link of your current tab in a few clicks.",
     "author":"Miniurl.id Developer",
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
     "icons":{
@@ -17,6 +17,6 @@
   
     },
     
-    "permissions":["activeTab","tabs"]
+    "permissions":["activeTab"]
     
   }
