@@ -4,7 +4,7 @@ Chrome Extension Create Miniurl
 Install Procedure:
 1. Download the .zip file
 2. Extract the chrome-extension-create-master.zip file
-3. Open chrome://extensions
+3. Open <a href="chrome://extensions">chrome://extensions</a>
 4. Turn on developer mode
 5. Click Load Unpacked
 6. Select chrome-extension-create-master folder
