@@ -11,3 +11,5 @@ Install Procedure:
 
 Don't worry if there is a prompt to disable developer mode.
 This extension is safe and doesn't need any permission.
+
+Install Tutorial Video: https://content.jwplatform.com/videos/6bk1m9LN-2nnS5eYO.mp4
