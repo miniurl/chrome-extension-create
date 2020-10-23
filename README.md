@@ -2,7 +2,7 @@
 Chrome Extension Create Miniurl
 
 Install Procedure:
-1. Download the .zip file
+1. Download the .zip file or click [here](https://miniurl.id/tools/link-click-analytics?ref=github&page=https%3A%2F%2Fgithub.com%2Fminiurl%2Fchrome-extension-create&redirto=https%3A%2F%2Fgithub.com%2Fminiurl%2Fchrome-extension-create%2Farchive%2Fmaster.zip&event=download&message=chrome_extension_create) 
 2. Extract the chrome-extension-create-master.zip file
 3. Open chrome://extensions
 4. Turn on developer mode
